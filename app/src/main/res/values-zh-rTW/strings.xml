@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">信息分享</string>
+    <string name="btn_show_toast">秀吐司</string>
+    <string name="btSendMsgToNextActivity">送出資料到下個Activity</string>
+    <string name="btnShareToOtherApps">分享至</string>
+    <string name="btnRecyclerViewDemo">循環檢視示範</string>
+    <string name="etUserMessage">輸入你的信息</string>
+    <string name="btnWasClcicked">點擊按鈕!</string>
+
+
+</resources>

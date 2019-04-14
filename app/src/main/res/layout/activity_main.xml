@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        tools:context=".activities.MainActivity">
+
+
+    <Button
+            android:text="@string/btn_show_toast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/btnShowToast"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text=""
+            android:ems="10"
+            android:layout_alignParentTop="true"
+            android:hint="@string/etUserMessage"
+            android:id="@+id/etUserMessage"
+            android:layout_marginTop="165dp"/>
+    <Button
+            android:text="@string/btSendMsgToNextActivity"
+            android:layout_width="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_height="wrap_content"
+            android:id="@+id/btSendMsgToNextActivity"
+            android:layout_marginTop="234dp"/>
+    <Button
+            android:text="@string/btnShareToOtherApps"
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnShareToOtherApps"
+            android:layout_marginTop="316dp"/>
+    <Button
+            android:text="@string/btnRecyclerViewDemo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="50dp"
+            android:id="@+id/btnRecyclerViewDemo"/>
+</RelativeLayout>
